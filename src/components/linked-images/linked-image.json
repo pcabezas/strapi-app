@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_linked_images_linked_images",
+  "info": {
+    "displayName": "Linked-Image",
+    "icon": "file-medical"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
